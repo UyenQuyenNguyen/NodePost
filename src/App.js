@@ -1,6 +1,6 @@
 import Home from './pages/home';
 import { useContext } from 'react';
-import { ThemeContext } from './context/themeContext';
+import { ThemeContext } from './context/themecontext';
 import './App.css';
 import { ThemeProvider } from '@mui/material';
 

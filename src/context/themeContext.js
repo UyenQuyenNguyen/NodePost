@@ -12,7 +12,7 @@ export const ThemeProvider = ({ children }) => {
             },
             secondary: {
                 main: '#ffffff',
-              },
+            },
         },
     });
     const lightTheme = createTheme({
@@ -20,12 +20,12 @@ export const ThemeProvider = ({ children }) => {
             action: {
                 active: "#000000",
                 selected: "#444444"
-            }, 
+            },
             text: {
-               primary: "#000000" 
+                primary: "#000000"
             }
         },
-        
+
     });
     let theme = null;
     if (isLight) {
